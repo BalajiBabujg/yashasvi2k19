@@ -94,6 +94,74 @@
   opacity: 1;
   right: 0;
 }
+
+.button2 {
+
+   background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 		</style>
 		
 	</head>
@@ -118,7 +186,10 @@
 							<a href="#page-top"></a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#about">About</a>
+							<a class="page-scroll" href="#about">About Institutions</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#yashasvi">YASHASVI’19</a>
 						</li>
 						<li>
 							<a class="page-scroll" href="#Events">Events</a>
@@ -126,13 +197,13 @@
 						<li>
 							<a class="page-scroll" href="#portfolio">Rules</a>
 						</li>
-						<!--<li>
-							<a class="page-scroll" href="#team">Team</a>
-						</li>-->
+						
 						<li>
 							<a class="page-scroll" href="#contact">Contact</a>
 						</li>
-						
+						<li>
+							<a class="page-scroll" href="https://docs.google.com/forms/d/e/1FAIpQLSd7xWUwBtCxfyGXyTlvxKCpplpeCUZE441LYIYLvkfaE6Vo9Q/viewform?usp=sf_link"><b>Registration</b></a>
+						</li>
 					</ul>
 				</div>
 				<!-- /.navbar-collapse -->
@@ -146,7 +217,7 @@
 					<div class="intro-text">
 					<div class="intro-heading">Yashasvi'19</div>
 						<div class="intro-lead-in">National Level Students Workshop On Digital Marketing</div>				
-						<a href="" class="page-scroll btn btn-xl button"><span>Registration is not opened</span></a>
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSd7xWUwBtCxfyGXyTlvxKCpplpeCUZE441LYIYLvkfaE6Vo9Q/viewform?usp=sf_link" class="page-scroll btn btn-xl button"><span>Click here for Registration</span></a>
 <br/><br/>
 						<button class="button1">Registration will close on March 4, 2019 @ 8:00 pm.</button>
 						
@@ -166,13 +237,97 @@
 							The Math is actively involved in a wide range of humanitarian activities for the upliftment of mankind, both spiritual and material. <br/></br>
 							
 							Mata Amritanandamayi Math has established a vast network of educational institutions across the country that offer professional education of very high quality
-							and these institutions are ranked top in India and abroad. </b></p>
+							and these institutions are ranked top in India and abroad. <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></b></p>
 						</div>
+						
+					</div>
+				</div>
+				<!--<div class="row">
+					 
+					<div class="col-md-3 text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-briefcase ot-circle"></i>
+							<h3>Web Development</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+						</div>
+					</div>
+					
+					<div class="col-md-3 text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-photo ot-circle"></i>
+							<h3>Visualisation</h3>
+							<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+						</div>
+					</div>
+					
+					<div class="col-md-3 text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-camera-retro ot-circle"></i>
+							<h3>Photography</h3>
+							<p>Accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+						</div>
+					</div>
+					
+					<div class="col-md-3 text-center">
+						<div class="mz-module-about">
+							<i class="fa fa-cube ot-circle"></i>
+							<h3>UI/UX Design</h3>
+							<p> Itaque earum rerum hic tenetur a sapiente, ut aut reiciendis maiores</p>
+						</div>
+					</div>
+					
+				</div> about module -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<section id="yashasvi" class="light-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+					
 						<div class="section-title">
-							<h2>ABOUT THE WORKSHOP</h2>
-							<p style="text-align: justify;"><b> Amrita Institutions, Nagercoil Campus has scheduled YASHASVI’19, National Level Workshop on Digital Marketing and Events organized by Department of Management Studies on March 7-8, 2019. Launching in this year with the motive of encouraging all students who are the future professionals.				
+							<h2>ABOUT YASHASVI’19</h2>
+							<p style="text-align: justify;"><b>Department of Management Studies of Amrita Institutions, Nagercoil Campus has scheduled YASHASVI’19, 
+							National Level Workshop on Digital Marketing and Events organized by  on March 7-8, 2019. 
+							Launching in this year with the motive of encouraging all participants who are the pillars of the nation.				
 							The workshop and events have various management and non-management games conducted by the students. 
-                            this Provides them a platform to mould and express their in-built talents and knowledge. </b></p>
+                            this provides them a platform to mould and express their in-built talents and knowledge. </b></p>
+							<div class="col-lg-12">
+							<div class="col-lg-1">
+							</div>
+							<div class="col-lg-5">
+							<div class="skills-text">
+							<h2></h2>
+							
+							<div class=" text-left "><b>Venue & Time</b><br/>
+						<b>Registration Time: </b>8:00 - 9:30 AM<br/>
+						<b>Venue:</b>  Main Auditorium<br/><br/>
+						 
+						<button class="button2">Hostel Accommodation will be alloted on the basis of First-in First-out </button>
+						 
+					
+					</div>
+					</br>
+					
+					
+						</div>
+							</div>
+							<div class="col-lg-5">
+							<img src="images/demo/digitalmarketing.png" alt="sorry" class="" style="height:220px; width:320px; " />
+							<div class="skillbar-item">
+							<div class="skillbar" data-percent="90%">
+								<a href="images//Demo/YashasviBroucher.jpg" download>
+<h3>Click For the Event Poster</h3></a>
+								<div class="skillbar-bar">
+									<div class="skillbar-percent" style="width: 90%;">
+									</div>
+								</div>
+							</div>
+							</div>
+							</div>
+							<div class="col-lg-1">
+							</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -214,92 +369,7 @@
 			</div>
 			<!-- /.container -->
 		</section>
-		<section >
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="skills-text">
-							<h2>YASHASVI'19</h2>
-							<p><b>This Program is going to happens on March 7-8, 2019 on the workshop of Digital Marketing <br><br> And this will makes you more knowledge on the part of the topic and you can express your talents in the events
-							<br></b></p>
-							<div class="alert alert-warning"><b >Venue & Time</b><br/>
-						<b>Registration Time: </b>8:00 - 9:30 AM<br/>
-						<b>Venue:</b>  Main Auditorium
-						 
-					</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-					<img src="images/demo/digitalmarketing.png" alt="sorry" class="" style="height:220px; width:300px;   " />
-<div class="skillbar-item">
-							<!--<div class="skillbar-score">
-								<span class="score">Click Here</span><span class="percent"></span>
-							</div>-->
-							<div class="skillbar" data-percent="90%">
-								<a href="images//Demo/YashasviBroucher.jpg" download>
-<h3>Click For the Event Poster</h3></a>
-								<div class="skillbar-bar">
-									<div class="skillbar-percent" style="width: 90%;">
-									</div>
-								</div>
-							</div>
-						</div>					
-					<!-- 
-						<div class="skillbar-item">
-							<div class="skillbar-score">
-								<span class="score">90</span><span class="percent">%</span>
-							</div>
-							<div class="skillbar" data-percent="90%">
-								<h3>Web design</h3>
-								<div class="skillbar-bar">
-									<div class="skillbar-percent" style="width: 90%;">
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<div class="skillbar-item">
-							<div class="skillbar-score">
-								<span class="score">80</span><span class="percent">%</span>
-							</div>
-							<div class="skillbar" data-percent="80%">
-								<h3>Development</h3>
-								<div class="skillbar-bar">
-									<div class="skillbar-percent" style="width: 80%;">
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<div class="skillbar-item">
-							<div class="skillbar-score">
-								<span class="score">85</span><span class="percent">%</span>
-							</div>
-							<div class="skillbar" data-percent="85%">
-								<h3>Photography</h3>
-								<div class="skillbar-bar">
-									<div class="skillbar-percent" style="width: 85%;">
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<div class="skillbar-item">
-							<div class="skillbar-score">
-								<span class="score">70</span><span class="percent">%</span>
-							</div>
-							<div class="skillbar" data-percent="70%">
-								<h3>Marketing</h3>
-								<div class="skillbar-bar">
-									<div class="skillbar-percent" style="width: 70%;">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> skill bar item -->
-			</div>
-		</section>
+		
 		<!--<section class="overlay-dark bg-img1 dark-bg short-section">
 			<div class="container text-center">
 				<div class="row">
@@ -427,6 +497,42 @@
 					</div>
 				</div>
 				
+				<div class="row">
+				<!-- start portfolio item -->
+				<div class="col-md-2">
+					
+				</div>
+				<!-- end portfolio item -->
+				<!-- start portfolio item -->
+				<div class="col-md-4">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="images/demo/events/dancee.jpg" alt="" style="height:235px;width:533px" class="img-responsive" />
+							<figcaption>
+								<h2>Narthana</h2>
+								<p>Dance</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end portfolio item -->
+				<!-- start portfolio item -->
+				<div class="col-md-4">
+					<div class="ot-portfolio-item">
+						<figure class="effect-bubba">
+							<img src="images/demo/events/treasure.jpeg" alt="" style="height:235px;width:533px" class="img-responsive" />
+							<figcaption>
+								<h2>Anevesha</h2>
+								<p>Treasure Hunt</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<div class="col-md-2">
+					
+				</div>
 		</section>
 		
 		
@@ -558,7 +664,50 @@
 		
 		
 
-		<!-- Modal for portfolio item 5 -->
+		<!-- Modal for portfolio item 1 -->
+		<div class="modal fade" id="Modal-1" tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-1">Narthana (Dance)</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/demo/events/dancee.jpg" alt="" style="height:433px;width:948px" class="img-responsive" />
+						
+						<p><b>Rounds </b>  :  1 </br>
+<b>Rules</b> </br>
+<b>Contact  </b>   	:    Vishvesh.S - 7708464257
+</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="Modal-2" tabindex="-1" role="dialog" aria-labelledby="Modal-label-2">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="Modal-label-2">Anevesha (Treasure Hunt)</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/demo/events/treasure.jpeg" alt="" style="height:433px;width:948px" class="img-responsive" />
+						
+						<p><b>Rounds </b>  :  3 </br>
+						
+<b>Individual Game</b> </br>
+<b>Contact  </b>   	:    Vishvesh.S - 7708464257
+</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="modal fade" id="Modal-5" tabindex="-1" role="dialog" aria-labelledby="Modal-label-5">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
@@ -570,6 +719,13 @@
 						<img src="images/demo/events/adzap.jpg" alt="" style="height:433px;width:948px" class="img-responsive" />
 						
 						<p><b>Rounds </b>  :  3 </br>
+						<b>Rules</b></br>
+						1. Two teams from a college can participate.</br>
+						2. Participants must be in formal attire preliminary rounds can be conducted depending on the no. of participants.</br>
+						3. Elimination will be there after each rounds.</br>
+						4. Medium of communication must be in english.<br/>
+						
+						
 <b>Individual Game</b> </br>
 <b>Contact  </b>   	:    Vishvesh.S - 7708464257
 </p>
@@ -593,6 +749,11 @@
 						<img src="images/demo/events/dance.jpg" alt="" style="height:433px;width:948px" class="img-responsive" />
 						
 						<p><b>Rounds</b>   :    3 </br>
+						<b>Rules</b></br>
+						1. Two teams from a college can participate.</br>
+						2. Participants must be in formal attire preliminary rounds can be conducted depending on the no. of participants.</br>
+						3. Elimination will be there after each rounds.</br>
+						4. Medium of communication must be in english.<br/>
 <b>Teams	</b> :    2 teams from College</br>
 <b>Team Size</b> 	:    2 members</br>
                <b>Contact</b> 	:  Praveen.P.T – 9655326420
